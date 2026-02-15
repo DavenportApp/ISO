@@ -57,6 +57,99 @@ Environmental and social responsibility considerations in quality management.
 - **[Forms](./forms/)** - Templates and forms for QMS implementation
 - **[Templates](./templates/)** - Reusable templates for documentation
 
+## 📥 Download Documentation for Review
+
+### Option 1: Download Complete Package (Recommended)
+
+**Download as ZIP from GitHub:**
+1. Click the green **"Code"** button at the top of this repository
+2. Select **"Download ZIP"**
+3. Extract the ZIP file to your local machine
+4. Open `README.md` to start reviewing
+
+**Using Git Clone:**
+```bash
+git clone https://github.com/DavenportApp/ISO.git
+cd ISO
+```
+
+### Option 2: Download Individual Files
+
+You can download individual documents by:
+1. Navigate to any file in the repository
+2. Click the file to open it
+3. Click the **"Download raw file"** button (download icon) in the top-right
+4. Or right-click the **"Raw"** button and select "Save link as..."
+
+### Option 3: Use the Package Script
+
+For a clean documentation-only package (no Git history):
+```bash
+# Clone the repository
+git clone https://github.com/DavenportApp/ISO.git
+cd ISO
+
+# Run the packaging script
+./package-docs.sh
+
+# This creates: ISO-9001-2026-QMS-Documentation-YYYY-MM-DD.zip
+```
+
+### What You'll Get
+
+📦 **Complete Package includes:**
+- ✅ All ISO 9001:2026 clause documentation (Clauses 4-10)
+- ✅ Climate change, digital transformation, and sustainability requirements
+- ✅ Essential procedures (risk management, internal audit, document control, etc.)
+- ✅ Implementation guide with 8-phase roadmap
+- ✅ Complete documentation index
+- ✅ Forms and templates directories
+- ✅ Total: 41 documents, ~1.8MB
+
+### Documentation Structure
+
+After download, you'll find:
+```
+ISO-9001-2026-QMS-Documentation/
+├── README.md                    # Start here
+├── DOCUMENTATION-INDEX.md       # Complete file index
+├── IMPLEMENTATION-GUIDE.md      # Implementation roadmap
+├── PROJECT-SUMMARY.md          # Project overview
+├── clause-4-context/           # Context documentation
+├── clause-5-leadership/        # Leadership documentation
+├── clause-6-planning/          # Planning documentation
+├── clause-7-support/           # Support documentation
+├── clause-8-operation/         # Operations documentation
+├── clause-9-performance-evaluation/  # Performance evaluation
+├── clause-10-improvement/      # Improvement documentation
+├── new-requirements/           # ISO 9001:2026 enhancements
+├── procedures/                 # Supporting procedures
+├── forms/                      # Forms directory
+└── templates/                  # Templates directory
+```
+
+### Viewing Options
+
+**For best viewing experience:**
+- **GitHub:** View directly in your browser (with nice formatting)
+- **VS Code:** Open folder in VS Code with Markdown preview
+- **Markdown Editors:** Use Typora, MarkText, or similar
+- **Convert to PDF:** Use tools like Pandoc or online converters
+- **Print:** Generate PDF first for better formatting
+
+### Quick Review Checklist
+
+Start your review with these key documents:
+1. ✅ [README.md](./README.md) - Overview and navigation
+2. ✅ [DOCUMENTATION-INDEX.md](./DOCUMENTATION-INDEX.md) - Complete reference
+3. ✅ [IMPLEMENTATION-GUIDE.md](./IMPLEMENTATION-GUIDE.md) - Implementation approach
+4. ✅ [PROJECT-SUMMARY.md](./PROJECT-SUMMARY.md) - What was delivered
+5. ✅ Review each clause folder (4-10) as needed
+6. ✅ Check [new-requirements/](./new-requirements/) for ISO 9001:2026 enhancements
+7. ✅ Review [procedures/](./procedures/) for essential processes
+
+---
+
 ## Quick Start Guide
 
 1. **Review the Context** - Start with [Clause 4](./clause-4-context/) to understand organizational context
