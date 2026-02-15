@@ -1,0 +1,46 @@
+# Git ignore file for ISO 9001:2026 QMS Documentation
+
+# Package files
+*.zip
+*.tar.gz
+*.tar
+ISO-9001-2026-QMS-Documentation-*.zip
+ISO-9001-2026-QMS-Documentation-*.tar.gz
+
+# Temporary directories
+/tmp/
+.tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts
+build/
+dist/
+*.log
+
+# Converted documents (generated files)
+*.docx
+*.pdf
+*.doc
+docx-output/
+pdf-output/
+
+# Backup files
+*.bak
+*.backup
+*-backup.md
