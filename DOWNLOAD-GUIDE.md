@@ -1,27 +1,72 @@
 # Quick Download Guide
 
-## 🚀 Three Easy Ways to Download ISO 9001:2026 QMS Documentation
-
-### Method 1: GitHub Web Interface (Easiest) ⭐
-
-**For Complete Package:**
-1. Go to https://github.com/DavenportApp/ISO
-2. Click the green **"Code"** button
-3. Select **"Download ZIP"**
-4. Save and extract the ZIP file
-5. Open `README.md` to start
-
-**Time Required:** 2 minutes  
-**Best For:** Quick review, no Git needed
+> ## ⚠️ CRITICAL: Branch Selection Issue!
+>
+> **If you downloaded a ZIP and only see 3 lines, you got the wrong branch!**
+>
+> The **main** branch only has minimal content. All 41 files are on the **feature branch**.
+>
+> ### ✅ Solution: Use This Direct Link
+>
+> 🔗 **[Click to Download Complete Documentation (Correct Branch)](https://github.com/DavenportApp/ISO/archive/refs/heads/copilot/update-iso-9000-to-iso-9001-2026.zip)**
+>
+> This link downloads the correct branch automatically - no branch selection needed!
 
 ---
 
-### Method 2: Git Clone (Recommended for Developers)
+## 🚀 Three Easy Ways to Download ISO 9001:2026 QMS Documentation
 
-**Command Line:**
+### Method 1: Direct Download Link (Easiest & Most Reliable) ⭐⭐⭐
+
+**No branch selection required - just click:**
+
+🔗 **[Download Complete ISO 9001:2026 Documentation ZIP](https://github.com/DavenportApp/ISO/archive/refs/heads/copilot/update-iso-9000-to-iso-9001-2026.zip)**
+
+**What you get:**
+- ✅ All 41 documentation files
+- ✅ Automatic correct branch selection
+- ✅ No mistakes possible
+- ✅ ~227KB compressed, ~1.8MB uncompressed
+
+**Time Required:** 30 seconds  
+**Best For:** Everyone! No confusion, no mistakes
+
+---
+
+### Method 2: GitHub Web Interface (Must Select Correct Branch!)
+
+**⚠️ CRITICAL STEPS - Follow Exactly:**
+
+**For Complete Package:**
+1. Go to https://github.com/DavenportApp/ISO
+2. **FIRST:** Click the branch dropdown (top-left, shows "main")
+3. **SELECT:** `copilot/update-iso-9000-to-iso-9001-2026`
+4. **THEN:** Click the green **"Code"** button
+5. Select **"Download ZIP"**
+6. Save and extract the ZIP file
+7. Open `README.md` to start
+
+❌ **Common Mistake:** Clicking "Download ZIP" while on "main" branch only gives you 3 lines!
+
+**Time Required:** 2 minutes  
+**Best For:** If you want to use GitHub web interface
+
+---
+
+### Method 3: Git Clone (Correct Branch)
+
+**Command Line (Correct Branch):**
+```bash
+# Clone the feature branch directly
+git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git
+cd ISO
+```
+
+**Alternative (Clone then switch):**
 ```bash
 git clone https://github.com/DavenportApp/ISO.git
 cd ISO
+git checkout copilot/update-iso-9000-to-iso-9001-2026
 ```
 
 **Time Required:** 1 minute  
@@ -29,12 +74,12 @@ cd ISO
 
 ---
 
-### Method 3: Custom Package Script (Clean Package)
+### Method 4: Custom Package Script (Clean Package)
 
 **For Distribution-Ready Package:**
 ```bash
-# First clone the repository
-git clone https://github.com/DavenportApp/ISO.git
+# Clone the CORRECT branch
+git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git
 cd ISO
 
 # Run the packaging script
@@ -207,9 +252,49 @@ pandoc README.md -o README.pdf
 
 ---
 
+## 🆘 Troubleshooting
+
+### ❌ Problem: "I downloaded ZIP but only see 3 lines in README!"
+
+**This is the #1 most common issue!**
+
+**Cause:** You downloaded from the **main** branch (which only has minimal content) instead of the feature branch with all documentation.
+
+**Solution (Choose One):**
+
+1. **✅ EASIEST:** Use the direct download link (no branch selection needed):
+   
+   🔗 [Download Correct Branch ZIP](https://github.com/DavenportApp/ISO/archive/refs/heads/copilot/update-iso-9000-to-iso-9001-2026.zip)
+
+2. **On GitHub Web:**
+   - Look for branch dropdown (top-left, shows "main")
+   - Click it and select: `copilot/update-iso-9000-to-iso-9001-2026`
+   - THEN click "Code" → "Download ZIP"
+
+3. **Using Git:**
+   ```bash
+   git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git
+   ```
+
+**How to verify you have the CORRECT version:**
+- ✅ README.md is ~8-9KB (not 89 bytes or 3 lines)
+- ✅ You see 12 folders: clause-4-context, clause-5-leadership, etc.
+- ✅ Total of 41+ markdown files
+- ✅ Multiple guide files: IMPLEMENTATION-GUIDE.md, PROJECT-SUMMARY.md, etc.
+
+**Still seeing only 3 lines?**
+- Delete what you downloaded
+- Use the direct download link above
+- Make sure you extract the ZIP file after download
+
+---
+
 ## 🆘 Need Help?
 
 ### Common Questions
+
+**Q: Why are there two branches?**
+A: The main branch has the old minimal content. The feature branch (`copilot/update-iso-9000-to-iso-9001-2026`) has all the new comprehensive documentation. Use the feature branch!
 
 **Q: How do I open .md files?**
 A: Markdown files open in any text editor. For best viewing, use VS Code, Typora, or view on GitHub.
@@ -221,7 +306,7 @@ A: Yes! Clone the repository, make changes, and submit a pull request.
 A: Convert to PDF first (using Pandoc or online tools) for better formatting.
 
 **Q: Is this the latest version?**
-A: Check the GitHub repository for the most recent updates.
+A: Check the GitHub repository for the most recent updates on the `copilot/update-iso-9000-to-iso-9001-2026` branch.
 
 **Q: Can I share this documentation?**
 A: See the license section in README.md. For internal use in your organization is typically fine.

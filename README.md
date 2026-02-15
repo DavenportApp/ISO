@@ -1,5 +1,38 @@
 # ISO 9001:2026 Quality Management System Documentation
 
+> ## ⚠️ IMPORTANT: Branch Selection for Download
+>
+> **If you downloaded a ZIP and only see a few lines, you downloaded the wrong branch!**
+>
+> ### ✅ To Get the Complete Documentation (41 files, ~1.8MB):
+>
+> **Option 1: Direct Download Link (Easiest)**
+> 
+> Click this link to download the complete documentation:
+> 
+> 🔗 **[Download Complete ISO 9001:2026 Documentation ZIP](https://github.com/DavenportApp/ISO/archive/refs/heads/copilot/update-iso-9000-to-iso-9001-2026.zip)**
+>
+> **Option 2: GitHub Web Interface**
+> 1. On GitHub, click the branch dropdown (shows "main" by default)
+> 2. Select branch: **`copilot/update-iso-9000-to-iso-9001-2026`**
+> 3. Then click the green "Code" button → "Download ZIP"
+>
+> **Option 3: Git Clone**
+> ```bash
+> git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git
+> cd ISO
+> ```
+>
+> **What You Should See After Download:**
+> - ✅ 41 markdown files
+> - ✅ 12 folders (clause-4-context, clause-5-leadership, etc.)
+> - ✅ Multiple README files, guides, and procedures
+> - ✅ README.md with full table of contents (this file should be ~8KB, not 89 bytes)
+>
+> ❌ **If you see only 3 lines in README.md, you downloaded from the wrong branch (main branch)**
+
+---
+
 ## Overview
 
 This repository contains the complete Quality Management System (QMS) documentation compliant with **ISO 9001:2026** requirements. The documentation provides a comprehensive framework for achieving and maintaining quality management system certification.
@@ -59,34 +92,64 @@ Environmental and social responsibility considerations in quality management.
 
 ## 📥 Download Documentation for Review
 
-### Option 1: Download Complete Package (Recommended)
+> ### ⚠️ CRITICAL: Select the Correct Branch!
+> 
+> **The main branch only has 3 lines - you need the feature branch with all 41 files!**
+>
+> **Direct Download (Recommended - No Branch Selection Needed):**
+> 
+> 🔗 **[Click Here to Download Complete Documentation ZIP](https://github.com/DavenportApp/ISO/archive/refs/heads/copilot/update-iso-9000-to-iso-9001-2026.zip)** ⬅️ Use this link!
+>
+> This downloads the complete `copilot/update-iso-9000-to-iso-9001-2026` branch with all 41 files.
 
-**Download as ZIP from GitHub:**
-1. Click the green **"Code"** button at the top of this repository
-2. Select **"Download ZIP"**
-3. Extract the ZIP file to your local machine
-4. Open `README.md` to start reviewing
+### Option 1: Direct Link Download (Easiest - No Mistakes!)
 
-**Using Git Clone:**
+**Just click this link:**
+🔗 **[Download ISO-9001-2026-Complete-Documentation.zip](https://github.com/DavenportApp/ISO/archive/refs/heads/copilot/update-iso-9000-to-iso-9001-2026.zip)**
+
+✅ This automatically downloads the correct branch  
+✅ Contains all 41 documentation files (~1.8MB)  
+✅ No branch selection required
+
+### Option 2: GitHub Web Interface (With Branch Selection)
+
+**⚠️ IMPORTANT: You MUST select the correct branch first!**
+
+**Step-by-step with screenshots:**
+
+1. **On GitHub, look for the branch dropdown** (top-left, usually shows "main")
+2. **Click the dropdown and select:** `copilot/update-iso-9000-to-iso-9001-2026`
+3. **THEN click the green "Code" button** → "Download ZIP"
+4. Extract the ZIP file to your local machine
+5. Open `README.md` to start reviewing
+
+**Common mistake:** Downloading from "main" branch only gives you 3 lines!
+
+### Option 3: Using Git Clone (Correct Branch)
+
+**Clone the correct branch directly:**
 ```bash
-git clone https://github.com/DavenportApp/ISO.git
+# Clone the feature branch with all documentation
+git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git
 cd ISO
 ```
 
-### Option 2: Download Individual Files
+**Or clone and switch branches:**
+```bash
+# Clone repository
+git clone https://github.com/DavenportApp/ISO.git
+cd ISO
 
-You can download individual documents by:
-1. Navigate to any file in the repository
-2. Click the file to open it
-3. Click the **"Download raw file"** button (download icon) in the top-right
-4. Or right-click the **"Raw"** button and select "Save link as..."
+# Switch to the documentation branch
+git checkout copilot/update-iso-9000-to-iso-9001-2026
+```
 
-### Option 3: Use the Package Script
+### Option 4: Use the Package Script
 
 For a clean documentation-only package (no Git history):
 ```bash
-# Clone the repository
-git clone https://github.com/DavenportApp/ISO.git
+# Clone the correct branch
+git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git
 cd ISO
 
 # Run the packaging script
@@ -147,6 +210,26 @@ Start your review with these key documents:
 5. ✅ Review each clause folder (4-10) as needed
 6. ✅ Check [new-requirements/](./new-requirements/) for ISO 9001:2026 enhancements
 7. ✅ Review [procedures/](./procedures/) for essential processes
+
+### 🆘 Troubleshooting: "I only see a few lines!"
+
+**Problem:** Downloaded ZIP only contains a short README with 3 lines?
+
+**Cause:** You downloaded from the **main** branch instead of the **feature** branch.
+
+**Solution:**
+1. ✅ **Use the direct download link above** (easiest - no mistakes!)
+2. Or: On GitHub, select branch `copilot/update-iso-9000-to-iso-9001-2026` BEFORE clicking "Download ZIP"
+
+**How to verify you have the correct version:**
+- ✅ README.md should be ~8-9KB (not 89 bytes)
+- ✅ You should see 12 folders
+- ✅ Total of 41+ markdown files
+- ✅ This README has a full table of contents and download section
+
+**Still having issues?**
+- Try the direct download link at the top of this section
+- Or use: `git clone -b copilot/update-iso-9000-to-iso-9001-2026 https://github.com/DavenportApp/ISO.git`
 
 ---
 
