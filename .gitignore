@@ -33,6 +33,13 @@ build/
 dist/
 *.log
 
+# Converted documents (generated files)
+*.docx
+*.pdf
+*.doc
+docx-output/
+pdf-output/
+
 # Backup files
 *.bak
 *.backup

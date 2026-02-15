@@ -143,7 +143,18 @@ cd ISO
 - View directly on GitHub
 - Or use browser extensions for local Markdown files
 
-**Option 4: Convert to PDF**
+**Option 4: Convert to Word (.docx)**
+```bash
+# Using our conversion script
+./convert-to-docx.sh
+
+# Or using Pandoc directly (install from pandoc.org)
+pandoc README.md -o README.docx --toc --number-sections
+
+# For complete guide, see: CONVERSION-GUIDE.md
+```
+
+**Option 5: Convert to PDF**
 ```bash
 # Using Pandoc (install from pandoc.org)
 pandoc README.md -o README.pdf
@@ -152,6 +163,13 @@ pandoc README.md -o README.pdf
 # - Markdown to PDF online tools
 # - VS Code export extensions
 ```
+
+**💡 Need Word or PDF format?**  
+See [CONVERSION-GUIDE.md](./CONVERSION-GUIDE.md) for:
+- Step-by-step Pandoc installation
+- Batch conversion of all files
+- Custom formatting options
+- Troubleshooting tips
 
 ---
 

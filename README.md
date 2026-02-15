@@ -197,8 +197,28 @@ ISO-9001-2026-QMS-Documentation/
 - **GitHub:** View directly in your browser (with nice formatting)
 - **VS Code:** Open folder in VS Code with Markdown preview
 - **Markdown Editors:** Use Typora, MarkText, or similar
+- **Convert to Word:** See [CONVERSION-GUIDE.md](./CONVERSION-GUIDE.md) for converting to .docx
 - **Convert to PDF:** Use tools like Pandoc or online converters
 - **Print:** Generate PDF first for better formatting
+
+### 📄 Converting to Word Format
+
+Need the documentation in Microsoft Word format?
+
+**Quick Method:**
+```bash
+# Run our conversion script
+./convert-to-docx.sh
+
+# Or convert specific folder
+./convert-to-docx.sh clause-4-context
+```
+
+**Detailed Instructions:**
+- See [CONVERSION-GUIDE.md](./CONVERSION-GUIDE.md) for complete guide
+- Includes Pandoc installation, usage examples, and troubleshooting
+- Multiple conversion methods explained
+- Tips for professional formatting
 
 ### Quick Review Checklist
 
